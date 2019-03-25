@@ -31,15 +31,18 @@ namespace Homework_1
             switch (intChoice)
             {
                 case 1:
-                    Console.WriteLine("" + (char)10 + "Enter numbers" );
+                    //Console.WriteLine("" + (char)10 + "Enter numbers" );
 
-                    Console.WriteLine("A = " );
-                    a = double.Parse(Console.ReadLine());
+                    //Console.WriteLine("A = " );
+                    //a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                    //Console.WriteLine("" + (char)10 + "B = ");
+                    //b = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a,b) + (char)10 + (char)10 + "Press any key to exit...");
+                    //Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a,b) + (char)10 + (char)10 + "Press any key to exit...");
+
+
+                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(get_2_vals()) + (char)10 + (char)10 + "Press any key to exit...");
                     Console.ReadKey();
                     break;
                 case 2:
@@ -102,6 +105,21 @@ namespace Homework_1
                     Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_5(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
                     Console.ReadKey();
                     break;
+                case 6:
+                    Console.WriteLine("" + (char)10 + "Enter numbers");
+
+                    Console.WriteLine("A = ");
+                    a = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "B = ");
+                    b = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "C = ");
+                    c = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_6(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                    Console.ReadKey();
+                    break;
             }
 
             double task_1(double A, double B)
@@ -137,6 +155,7 @@ namespace Homework_1
                 if (B == 2) return 1/(2*A+c);
                 return "Entered values didn't return any result.";
             }
+
             object task_5(double A, double B, double C)
             {
                 if (A >= B) return (A - (b / 2)) / (2 * Math.Pow(A + C, 2));
@@ -144,6 +163,26 @@ namespace Homework_1
                 return Math.Sqrt(A+Math.Pow(B+1,2));
                 
             }
+
+            object task_6(double A, double B, double C)
+            {
+                if (A == 1) return Math.Log(B+C)/Math.Sqrt((Math.Abs(A)+Math.Abs(B)));
+                if (A == 2 || A == 3) return Math.Pow(A - C,1/4);
+                return "Entered values didn't return any result.";
+            }
+
+            int get_2_vals(out double a, out double b)
+            {
+                Console.WriteLine("" + (char)10 + "Enter numbers");
+
+                Console.WriteLine("A = ");
+                a = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("" + (char)10 + "B = ");
+                b = double.Parse(Console.ReadLine());
+
+            }
+
         }
     }
 }
