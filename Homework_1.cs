@@ -10,9 +10,11 @@ namespace Homework_1
     {
         static void Main(string[] args)
         {
+            double a, b, c;
+
             string strMsg = "Hi dude!" + (char)10;
 
-            strMsg += "Please select the task from list below:" + (char)10;
+            strMsg += "Please select the task from list below:" + (char)10; 
             strMsg += "1. Task No 1" + (char)10;
             strMsg += "2. Task No 2" + (char)10;
             strMsg += "3. Task No 3" + (char)10;
@@ -24,14 +26,21 @@ namespace Homework_1
 
             Console.WriteLine(strMsg);
 
-            int iChoice = int.Parse(Console.ReadLine());
+            int intChoice = int.Parse(Console.ReadLine());
 
-            switch (iChoice)
+            switch (intChoice)
             {
                 case 1:
-                    Console.WriteLine(strMsg);
+                    Console.WriteLine("" + (char)10 + "Enter numbers" );
 
-                    int iChoice = int.Parse(Console.ReadLine());
+                    Console.WriteLine("A = " );
+                    a = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "B = ");
+                    b = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a,b) + (char)10 + (char)10 + "Press any key to exit...");
+                    Console.ReadKey();
                     break;
                 case 2:
 
@@ -40,8 +49,17 @@ namespace Homework_1
 
             }
 
+            double task_1(double A, double B)
+            {
+                if (A!=B)
+                {
+                    if (A < B) return -1;
+                        return 1;
+                }
+                return 0;
+            }
 
-            Console.ReadKey();
+
 
         }
     }
