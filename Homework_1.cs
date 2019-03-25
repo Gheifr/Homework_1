@@ -11,7 +11,16 @@ namespace Homework_1
         static void Main(string[] args)
         {
             string strMsg = "Hi dude!" + (char)10;
+
+            strMsg += "Please select the task from list below:"+(char)10;
+
+
+
             Console.WriteLine(strMsg);
+
+
+
+
         }
     }
 }
