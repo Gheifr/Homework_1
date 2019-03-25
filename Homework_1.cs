@@ -72,6 +72,21 @@ namespace Homework_1
                     Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_3(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
                     Console.ReadKey();
                     break;
+                case 4:
+                    Console.WriteLine("" + (char)10 + "Enter numbers");
+
+                    Console.WriteLine("A = ");
+                    a = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "B = ");
+                    b = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "C = ");
+                    c = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_4(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                    Console.ReadKey();
+                    break;
 
             }
 
@@ -102,7 +117,12 @@ namespace Homework_1
                     return Math.Pow(A + C,2);        
             }
 
-
+            object task_4(double A, double B, double C)
+            {
+                if (B == 1) return Math.Pow(A, 2) + 4*B+C;
+                if (B == 2) return 1/(2*A+c);
+                return "Entered values didn't return any result.";
+            }
         }
     }
 }
