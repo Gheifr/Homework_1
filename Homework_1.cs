@@ -87,7 +87,21 @@ namespace Homework_1
                     Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_4(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
                     Console.ReadKey();
                     break;
+                case 5:
+                    Console.WriteLine("" + (char)10 + "Enter numbers");
 
+                    Console.WriteLine("A = ");
+                    a = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "B = ");
+                    b = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "C = ");
+                    c = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_5(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                    Console.ReadKey();
+                    break;
             }
 
             double task_1(double A, double B)
