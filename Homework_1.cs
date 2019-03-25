@@ -123,6 +123,13 @@ namespace Homework_1
                 if (B == 2) return 1/(2*A+c);
                 return "Entered values didn't return any result.";
             }
+            object task_5(double A, double B, double C)
+            {
+                if (A >= B) return (A - (b / 2)) / (2 * Math.Pow(A + C, 2));
+                        
+                return Math.Sqrt(A+Math.Pow(B+1,2));
+                
+            }
         }
     }
 }
