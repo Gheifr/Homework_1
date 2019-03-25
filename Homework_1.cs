@@ -23,6 +23,24 @@ namespace Homework_1
             strMsg += "8. Task No 8" + (char)10;
 
             Console.WriteLine(strMsg);
+
+            int iChoice = int.Parse(Console.ReadLine());
+
+            switch (iChoice)
+            {
+                case 1:
+                    Console.WriteLine(strMsg);
+
+                    int iChoice = int.Parse(Console.ReadLine());
+                    break;
+                case 2:
+
+                    break;
+
+
+            }
+
+
             Console.ReadKey();
 
         }
