@@ -23,6 +23,7 @@ namespace Homework_1
             strMsg += "6. Task No 6" + (char)10;
             strMsg += "7. Task No 7" + (char)10;
             strMsg += "8. Task No 8" + (char)10;
+            strMsg += "9. Recursive Fibonacci" + (char)10;
 
             Console.WriteLine(strMsg);
 
@@ -31,18 +32,17 @@ namespace Homework_1
             switch (intChoice)
             {
                 case 1:
-                    //Console.WriteLine("" + (char)10 + "Enter numbers" );
+                    Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    //Console.WriteLine("A = " );
-                    //a = double.Parse(Console.ReadLine());
+                    Console.WriteLine("A = ");
+                    a = double.Parse(Console.ReadLine());
 
-                    //Console.WriteLine("" + (char)10 + "B = ");
-                    //b = double.Parse(Console.ReadLine());
+                    Console.WriteLine("" + (char)10 + "B = ");
+                    b = double.Parse(Console.ReadLine());
 
-                    //Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a,b) + (char)10 + (char)10 + "Press any key to exit...");
+                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a, b) + (char)10 + (char)10 + "Press any key to exit...");
 
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(get_2_vals()) + (char)10 + (char)10 + "Press any key to exit...");
                     Console.ReadKey();
                     break;
                 case 2:
@@ -120,6 +120,45 @@ namespace Homework_1
                     Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_6(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
                     Console.ReadKey();
                     break;
+                case 7:
+                    Console.WriteLine("" + (char)10 + "Enter numbers");
+
+                    Console.WriteLine("A = ");
+                    a = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "B = ");
+                    b = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "C = ");
+                    c = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_7(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                    Console.ReadKey();
+                    break;
+                case 8:
+                    Console.WriteLine("" + (char)10 + "Enter numbers");
+
+                    Console.WriteLine("A = ");
+                    a = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "B = ");
+                    b = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "C = ");
+                    c = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_8(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                    Console.ReadKey();
+                    break;
+                case 9:
+                    Console.WriteLine("" + (char)10 + "Enter numbers");
+
+                    Console.WriteLine("A = ");
+                    a = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("" + (char)10 + "Member of Fibonacci sequence under number " + a + " is:" + (char)10 + Recurs_fib(a) + (char)10 + (char)10 + "Press any key to exit...");
+                    Console.ReadKey();
+                    break;
             }
 
             double task_1(double A, double B)
@@ -171,18 +210,24 @@ namespace Homework_1
                 return "Entered values didn't return any result.";
             }
 
-            int get_2_vals(out double a, out double b)
+            object task_7(double A, double B, double C)
             {
-                Console.WriteLine("" + (char)10 + "Enter numbers");
-
-                Console.WriteLine("A = ");
-                a = double.Parse(Console.ReadLine());
-
-                Console.WriteLine("" + (char)10 + "B = ");
-                b = double.Parse(Console.ReadLine());
-
+                if (B <= A) return 2*Math.Cos(A + C);
+                if (B > A) return (A*B)/2*(A-C);
+                return "Entered values didn't return any result.";
             }
 
+            object task_8(double A, double B, double C)
+            {
+                if (A < C) return (A - (B/2))/(2*(A + B));
+                if (A >= C*B) return Math.Pow(Math.Sin(A),2)+ Math.Pow(Math.Cos(C), 2);
+                return "Entered values didn't return any result.";
+            }
+
+            int Recurs_fib(double A)
+            {
+                return 0;
+            }
         }
     }
 }
