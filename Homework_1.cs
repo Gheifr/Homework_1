@@ -60,6 +60,16 @@ namespace Homework_1
             }
 
 
+            double task_2(double A, double B, double C)
+            {
+                if (A != B)
+                {
+                    if (A < B) return -1;
+                    return 1;
+                }
+                return 0;
+            }
+
 
         }
     }
