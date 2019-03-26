@@ -41,19 +41,15 @@ namespace Homework_1
                     case 0:
                         break;
                     case 1:
-                        //Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                        //Console.WriteLine("A = ");
-                        //a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                        //Console.WriteLine("" + (char)10 + "B = ");
-                        //b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
-                        //Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a, b) + (char)10 + (char)10 + "Press any key to exit...");
-                        
-
-                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(get_2_values()) + (char)10 + (char)10 + "Press any key to exit...");
-
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a, b) + (char)10 + (char)10 + "Press any key to exit...");
 
                         Console.ReadKey();
                         break;
@@ -243,18 +239,19 @@ namespace Homework_1
                 return Recurs_fib(A - 1) + Recurs_fib(A - 2);
             }
 
-            double get_2_values(out double num1, out double num2)
+            Tuple<double, double> get_2_values()
             {
                 Console.WriteLine("" + (char)10 + "Enter numbers");
 
                 Console.WriteLine("A = ");
-                num1 = double.Parse(Console.ReadLine());
-
-                Console.WriteLine("" + (char)10 + "B = ");
-                num2 = double.Parse(Console.ReadLine());
-
+                double num1 = double.Parse(Console.ReadLine());
                 
 
+                Console.WriteLine("" + (char)10 + "B = ");
+                double num2 = double.Parse(Console.ReadLine());
+
+
+                return Tuple.Create(num1,num2);
 
                     }
         }   
