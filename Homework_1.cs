@@ -151,9 +151,9 @@ namespace Homework_1
                     Console.ReadKey();
                     break;
                 case 9:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                    Console.WriteLine("" + (char)10 + "Enter position you'd like to discover");
 
-                    Console.WriteLine("A = ");
+                    Console.WriteLine("Position will be ");
                     a = double.Parse(Console.ReadLine());
 
                     Console.WriteLine("" + (char)10 + "Member of Fibonacci sequence under number " + a + " is:" + (char)10 + Recurs_fib(a) + (char)10 + (char)10 + "Press any key to exit...");
@@ -226,7 +226,9 @@ namespace Homework_1
 
             int Recurs_fib(double A)
             {
-                return 0;
+                if (A == 0) return 1;               
+                if (A == 1) return 1;
+                return Recurs_fib(A - 1) + Recurs_fib(A - 2);
             }
         }
     }
