@@ -12,3 +12,5 @@ D:\Learning\Course 2\Homework_1\Homework_1\Homework_1\obj\Debug\Homework_1.cspro
 D:\Learning\Course 2\Homework_1\Homework_1\Homework_1\obj\Debug\Homework_1.csproj.CoreCompileInputs.cache
 D:\Learning\Course 2\Homework_1\Homework_1\Homework_1\obj\Debug\Homework_1.exe
 D:\Learning\Course 2\Homework_1\Homework_1\Homework_1\obj\Debug\Homework_1.pdb
+C:\Users\prushav.EMEA\Documents\GitHub\Homework_1\Homework_1\Homework_1\obj\Debug\Homework_1.csprojAssemblyReference.cache
+C:\Users\prushav.EMEA\Documents\GitHub\Homework_1\Homework_1\Homework_1\obj\Debug\Homework_1.csproj.CoreCompileInputs.cache
