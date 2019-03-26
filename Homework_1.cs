@@ -226,8 +226,7 @@ namespace Homework_1
 
             int Recurs_fib(double A)
             {
-                if (A == 0) return 1;               
-                if (A == 1) return 1;
+                if (A == 0 || A == 1) return 1;               
                 return Recurs_fib(A - 1) + Recurs_fib(A - 2);
             }
         }
