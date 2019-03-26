@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Homework_1",
+      "appliesTo": "Homework_1.cs",
+      "type": "launch"
+    }
+  ]
+}
