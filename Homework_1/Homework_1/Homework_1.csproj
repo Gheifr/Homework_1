@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Learning\Course 2\Homework_1\Homework_1.cs" />
+    <Compile Include="C:\Users\prushav.EMEA\source\repos\Homework_12\Homework_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

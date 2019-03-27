@@ -24,141 +24,150 @@ namespace Homework_1
             strMsg += "7. Task No 7" + (char)10;
             strMsg += "8. Task No 8" + (char)10;
             strMsg += "9. Recursive Fibonacci" + (char)10;
+            strMsg += "or press any key to exit" + (char)10;
 
             Console.WriteLine(strMsg);
 
-            int intChoice = int.Parse(Console.ReadLine());
 
-            switch (intChoice)
+            string strChoice = Console.ReadLine();
+
+
+            if (strChoice != "")
             {
-                case 1:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                int intChoice = int.Parse(strChoice);
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                switch (intChoice)
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a, b) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_1(a, b) + (char)10 + (char)10 + "Press any key to exit...");
 
-                    Console.ReadKey();
-                    break;
-                case 2:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.ReadKey();
+                        break;
+                    case 2:
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "C = ");
-                    c = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "C = ");
+                        c = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_2(a, b,c) + (char)10 + (char)10 + "Press any key to exit...");
-                    Console.ReadKey();
-                    break;
-                case 3:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_2(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.ReadKey();
+                        break;
+                    case 3:
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "C = ");
-                    c = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "C = ");
+                        c = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_3(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
-                    Console.ReadKey();
-                    break;
-                case 4:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_3(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.ReadKey();
+                        break;
+                    case 4:
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "C = ");
-                    c = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "C = ");
+                        c = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_4(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
-                    Console.ReadKey();
-                    break;
-                case 5:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_4(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.ReadKey();
+                        break;
+                    case 5:
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "C = ");
-                    c = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "C = ");
+                        c = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_5(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
-                    Console.ReadKey();
-                    break;
-                case 6:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_5(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.ReadKey();
+                        break;
+                    case 6:
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "C = ");
-                    c = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "C = ");
+                        c = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_6(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
-                    Console.ReadKey();
-                    break;
-                case 7:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_6(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.ReadKey();
+                        break;
+                    case 7:
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "C = ");
-                    c = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "C = ");
+                        c = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_7(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
-                    Console.ReadKey();
-                    break;
-                case 8:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_7(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.ReadKey();
+                        break;
+                    case 8:
+                        Console.WriteLine("" + (char)10 + "Enter numbers");
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("A = ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "B = ");
-                    b = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "B = ");
+                        b = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "C = ");
-                    c = double.Parse(Console.ReadLine());
+                        Console.WriteLine("" + (char)10 + "C = ");
+                        c = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_8(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
-                    Console.ReadKey();
-                    break;
-                case 9:
-                    Console.WriteLine("" + (char)10 + "Enter numbers");
+                        Console.WriteLine("" + (char)10 + "Result of this task is:" + (char)10 + task_8(a, b, c) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.ReadKey();
+                        break;
+                    case 9:
+                        Console.WriteLine("" + (char)10 + "Enter position you'd like to discover");
 
-                    Console.WriteLine("A = ");
-                    a = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Position will be ");
+                        a = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("" + (char)10 + "Member of Fibonacci sequence under number " + a + " is:" + (char)10 + Recurs_fib(a) + (char)10 + (char)10 + "Press any key to exit...");
-                    Console.ReadKey();
-                    break;
+                        Console.WriteLine("" + (char)10 + "Member of Fibonacci sequence under number " + a + " is:" + (char)10 + Recurs_fib(a) + (char)10 + (char)10 + "Press any key to exit...");
+                        Console.ReadKey();
+                        break;
+                }
             }
 
             double task_1(double A, double B)
@@ -226,8 +235,25 @@ namespace Homework_1
 
             int Recurs_fib(double A)
             {
-                return 0;
+                if (A == 0 || A == 1) return 1;               
+                return Recurs_fib(A - 1) + Recurs_fib(A - 2);
             }
-        }
+
+            Tuple<double, double> get_2_values()
+            {
+                Console.WriteLine("" + (char)10 + "Enter numbers");
+
+                Console.WriteLine("A = ");
+                double num1 = double.Parse(Console.ReadLine());
+                
+
+                Console.WriteLine("" + (char)10 + "B = ");
+                double num2 = double.Parse(Console.ReadLine());
+
+
+                return Tuple.Create(num1,num2);
+
+                    }
+        }   
     }
 }
