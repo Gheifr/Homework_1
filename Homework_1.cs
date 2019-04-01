@@ -174,6 +174,8 @@ namespace Homework_1
             {
                 if (A!=B)
                 {
+					//It is much better for reading when "return statement" is moved to the next line.
+					//Please do this for whole file.
                     if (A < B) return -1;
                         return 1;
                 }
@@ -212,6 +214,11 @@ namespace Homework_1
                 
             }
 
+			//Method should Never (almost) return object as a result of execution.
+			//There are two possible ways for reloving it in your case:
+			//1. Split method ino two parts: First will return calculation result, second: message that something is wrong
+			//2. Make method to return a string as it is actually what you need when calling it - message to show to user.
+			//Same applies for other methods as well.
             object task_6(double A, double B, double C)
             {
                 if (A == 1) return Math.Log(B+C)/Math.Sqrt((Math.Abs(A)+Math.Abs(B)));
@@ -239,6 +246,7 @@ namespace Homework_1
                 return Recurs_fib(A - 1) + Recurs_fib(A - 2);
             }
 
+			//you should not commit code that is never used
             Tuple<double, double> get_2_values()
             {
                 Console.WriteLine("" + (char)10 + "Enter numbers");
