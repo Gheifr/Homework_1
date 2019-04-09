@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class Inventory
+    public class Inventory
     {
     }
 }

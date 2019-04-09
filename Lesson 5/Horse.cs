@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class Horse
+    public class Horse : Animals
     {
+        public Horse(string name) : base(name)
+        {
+        }
+
+        public override void Eat(Feed food)
+        {
+            base.Eat(food);
+        }
     }
 }

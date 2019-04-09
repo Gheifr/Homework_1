@@ -19,7 +19,7 @@ namespace Lesson_5
 
         public virtual void GoToTheZoo()
         {
-            Console.WriteLine("I'm going to the zoo!")
+            Console.WriteLine("I'm going to the zoo!");
         }
     }
 }

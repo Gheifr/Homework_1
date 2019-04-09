@@ -8,9 +8,20 @@ namespace Lesson_5
 {
     public class Animals
     {
-        public virtual Eat(Feed food)
+        private string _name;
+
+        public Animals(string name)
+        {
+            _name = name;
+        }
+        public virtual void Eat(Feed food)
         {
 
+        }
+
+        public  string GetAnimalName()
+        {
+            return _name;
         }
     }
 }

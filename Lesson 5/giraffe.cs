@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class giraffe
+    public class giraffe : Animals
     {
+        public giraffe(string name) : base(name)
+        {
+        }
+
+        public override void Eat(Feed food)
+        {
+            base.Eat(food);
+        }
     }
 }

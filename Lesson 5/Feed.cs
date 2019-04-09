@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class Feed
+    public class Feed
     {
+        public int Callories;
     }
 }

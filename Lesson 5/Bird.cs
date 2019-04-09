@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class Bird
+    public class Bird : Animals
     {
+        public Bird(string name) : base(name)
+        {
+        }
     }
 }

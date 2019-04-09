@@ -6,10 +6,38 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class Program
+    public class Program //Zoo
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            var elephant = new Elefant("Elephant");
+            var bird = new Bird("Bird");
+
+            var employee = new Employee(32,"Mike");
+
+            var plant = new Plants();
+            var birdAviary = new Aviary();
+            var elephantAviary = new Aviary();
+
+            var visitor = new Visitor(15,"Ivan");
+
+
+            birdAviary.PLacePlant(plant);
+            birdAviary.PlaceAnimal(bird);
+
+            elephantAviary.PlaceAnimal(elephant);
+
+            Console.WriteLine(birdAviary.GetStatus());
+            Console.WriteLine(elephantAviary.GetStatus());
+
+            employee.FeedAnimal(elephant);
+            employee.FeedAnimal(bird);
+
+            visitor.Observe(elephant);
+            visitor.Observe(bird);
+
+            Console.ReadKey();
+
         }
     }
 }

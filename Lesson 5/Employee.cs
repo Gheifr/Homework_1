@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class Employee
+    public class Employee : People
     {
+        private int _availableMoney;
+        public Employee(int age, string name) : base(age, name)
+        {
+        }
+
+        public void FeedAnimal(Animals animal)
+        {
+
+        }
+
+        public void CleanAviary(Aviary aviary)
+        {
+
+        }
+
+        public void ReceivePayment(int sallary)
+        {
+            _availableMoney += sallary;
+        }
     }
 }
