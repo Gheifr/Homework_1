@@ -10,6 +10,7 @@ namespace Lesson_5
     {
         public Visitor(int age, string name) : base(age, name)
         {
+
         }
 
         public void Observe(Animals animal)
