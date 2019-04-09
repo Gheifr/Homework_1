@@ -10,8 +10,8 @@ namespace Lesson_5
     {
         public static void Main(string[] args)
         {
-            var elephant = new Elefant("Elephant");
-            var bird = new Bird("Bird");
+            var elephant = new Elefant("Old Elephant");
+            var bird = new Bird("Black Bird");
 
             var employee = new Employee(32,"Mike");
 
