@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class Animals
+    public class Animals
     {
+        public virtual Eat(Feed food)
+        {
+
+        }
     }
 }

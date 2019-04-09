@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lesson_5
 {
-    class Aviary
+    public class Aviary
     {
+        private Animals _animal;
+        private Plants _plant;
+
+        public void PlaceAnimal
     }
 }
