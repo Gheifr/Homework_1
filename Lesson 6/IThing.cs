@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lesson_6
 {
-    public interface IIfc
+    public interface IThing
     {
         void Use();
     }
