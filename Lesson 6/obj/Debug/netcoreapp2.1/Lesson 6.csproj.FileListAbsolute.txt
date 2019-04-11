@@ -1,0 +1,11 @@
+D:\Learning_stuff\Lesson 6\bin\Debug\netcoreapp2.1\Lesson 6.deps.json
+D:\Learning_stuff\Lesson 6\bin\Debug\netcoreapp2.1\Lesson 6.runtimeconfig.json
+D:\Learning_stuff\Lesson 6\bin\Debug\netcoreapp2.1\Lesson 6.runtimeconfig.dev.json
+D:\Learning_stuff\Lesson 6\bin\Debug\netcoreapp2.1\Lesson 6.dll
+D:\Learning_stuff\Lesson 6\bin\Debug\netcoreapp2.1\Lesson 6.pdb
+D:\Learning_stuff\Lesson 6\obj\Debug\netcoreapp2.1\Lesson 6.csprojAssemblyReference.cache
+D:\Learning_stuff\Lesson 6\obj\Debug\netcoreapp2.1\Lesson 6.csproj.CoreCompileInputs.cache
+D:\Learning_stuff\Lesson 6\obj\Debug\netcoreapp2.1\Lesson 6.AssemblyInfoInputs.cache
+D:\Learning_stuff\Lesson 6\obj\Debug\netcoreapp2.1\Lesson 6.AssemblyInfo.cs
+D:\Learning_stuff\Lesson 6\obj\Debug\netcoreapp2.1\Lesson 6.dll
+D:\Learning_stuff\Lesson 6\obj\Debug\netcoreapp2.1\Lesson 6.pdb
