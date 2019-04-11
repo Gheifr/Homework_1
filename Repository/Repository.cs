@@ -29,6 +29,7 @@ namespace DBCOnnection_IFC
 
             if (SaveFileInfoToDB == true)
             {
+                if (DBPath==null)
                 //saving file info to DBPath
             }
         }
