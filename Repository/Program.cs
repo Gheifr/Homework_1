@@ -7,7 +7,9 @@ namespace DBCOnnection_IFC
     {
         static void Main(string[] args)
         {
-            
+            LocalDBConnection remoteCon = new LocalDBConnection("LocalCon", "Local");
+
+            Console.WriteLine(remoteCon.GetConnectionType());
         }
     }
 }

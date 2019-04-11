@@ -1,0 +1,11 @@
+D:\Learning_stuff\DBCOnnection IFC\obj\Debug\netcoreapp2.1\DBCOnnection IFC.csprojAssemblyReference.cache
+D:\Learning_stuff\DBCOnnection IFC\obj\Debug\netcoreapp2.1\DBCOnnection IFC.csproj.CoreCompileInputs.cache
+D:\Learning_stuff\DBCOnnection IFC\obj\Debug\netcoreapp2.1\DBCOnnection IFC.AssemblyInfoInputs.cache
+D:\Learning_stuff\DBCOnnection IFC\obj\Debug\netcoreapp2.1\DBCOnnection IFC.AssemblyInfo.cs
+D:\Learning_stuff\DBCOnnection IFC\bin\Debug\netcoreapp2.1\DBCOnnection IFC.deps.json
+D:\Learning_stuff\DBCOnnection IFC\bin\Debug\netcoreapp2.1\DBCOnnection IFC.runtimeconfig.json
+D:\Learning_stuff\DBCOnnection IFC\bin\Debug\netcoreapp2.1\DBCOnnection IFC.runtimeconfig.dev.json
+D:\Learning_stuff\DBCOnnection IFC\bin\Debug\netcoreapp2.1\DBCOnnection IFC.dll
+D:\Learning_stuff\DBCOnnection IFC\bin\Debug\netcoreapp2.1\DBCOnnection IFC.pdb
+D:\Learning_stuff\DBCOnnection IFC\obj\Debug\netcoreapp2.1\DBCOnnection IFC.dll
+D:\Learning_stuff\DBCOnnection IFC\obj\Debug\netcoreapp2.1\DBCOnnection IFC.pdb

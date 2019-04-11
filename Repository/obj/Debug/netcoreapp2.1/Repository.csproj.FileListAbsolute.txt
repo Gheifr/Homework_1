@@ -1,0 +1,14 @@
+D:\Learning_stuff\Repository\obj\Debug\netcoreapp2.1\Repository.csprojAssemblyReference.cache
+D:\Learning_stuff\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CoreCompileInputs.cache
+D:\Learning_stuff\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfoInputs.cache
+D:\Learning_stuff\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfo.cs
+D:\Learning_stuff\Repository\bin\Debug\netcoreapp2.1\Repository.deps.json
+D:\Learning_stuff\Repository\bin\Debug\netcoreapp2.1\Repository.runtimeconfig.json
+D:\Learning_stuff\Repository\bin\Debug\netcoreapp2.1\Repository.runtimeconfig.dev.json
+D:\Learning_stuff\Repository\bin\Debug\netcoreapp2.1\Repository.dll
+D:\Learning_stuff\Repository\bin\Debug\netcoreapp2.1\Repository.pdb
+D:\Learning_stuff\Repository\bin\Debug\netcoreapp2.1\DBCOnnection IFC.dll
+D:\Learning_stuff\Repository\bin\Debug\netcoreapp2.1\DBCOnnection IFC.pdb
+D:\Learning_stuff\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CopyComplete
+D:\Learning_stuff\Repository\obj\Debug\netcoreapp2.1\Repository.dll
+D:\Learning_stuff\Repository\obj\Debug\netcoreapp2.1\Repository.pdb

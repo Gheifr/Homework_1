@@ -6,7 +6,8 @@ namespace DBCOnnection_IFC
 {
     public interface IDbConnection
     {
-        void Connect(string DbAdress);
-        void Disconnect(string DbConnection);
+        void Connect(DbConnection DbConnectionName, bool Type);
+
+        void Disconnect(DbConnection DbConnectionName, bool Type);
     }
 }
