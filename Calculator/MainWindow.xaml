@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
         xmlns:viewmodel="clr-namespace:Calculator.ViewModel"
-        Title="MainWindow" Height="600" Width="450">
+        Title="MainWindow" Height="700" Width="450">
 
     <Window.DataContext>
         <viewmodel:MainWindowViewModel/>
@@ -14,21 +14,18 @@
     
     
     <Grid>
-        <Grid.ColumnDefinitions>
-            
-        </Grid.ColumnDefinitions>
-
-
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Grid.Row ="0" >
+        <Label Grid.Row ="0" BorderBrush="Black" BorderThickness="0.5" Margin="15" HorizontalContentAlignment="Right">
             <!--Content="{Binding Path=""}">-->
             </Label>
 
         <Grid Grid.Row="1">
             <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -60,7 +57,9 @@
             <Button Grid.Row="3" Grid.Column="1" Content="0" Margin="15"/>
             <Button Grid.Row="3" Grid.Column="2" Content="." Margin="15"/>
             <Button Grid.Row="3" Grid.Column="3" Content="/" Margin="15"/>
-            
+
+            <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Content="C" Margin="15"/>
+            <Button Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"  Content="-=" Margin="15"/>
 
         </Grid>
         
