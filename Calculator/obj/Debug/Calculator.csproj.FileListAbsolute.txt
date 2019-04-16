@@ -13,3 +13,4 @@ D:\Learning_stuff\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
 D:\Learning_stuff\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\Learning_stuff\Calculator\obj\Debug\Calculator.exe
 D:\Learning_stuff\Calculator\obj\Debug\Calculator.pdb
+D:\Learning_stuff\Calculator\obj\Debug\GeneratedInternalTypeHelper.g.cs
