@@ -22,8 +22,6 @@ namespace Lesson_8
                 throw;
             }
             finally
-
-
             {
                 //code that will be executed almost always ;) 
                 //fail-fast type of application - app will crash at the time of exception at once - catch and finally will not work-out at all
