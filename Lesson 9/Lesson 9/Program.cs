@@ -10,6 +10,14 @@ namespace Lesson_9
     {
         static void Main(string[] args)
         {
+
+            for (int i = 700; i >=200; i-=13)
+            {
+                Console.WriteLine(i);
+            }
+            Console.ReadKey();
+
         }
+        
     }
 }
