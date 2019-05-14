@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Genereic
 {
-    interface ICard
+    public interface ICard
     {
+     
+    
     }
+
+    
 }
