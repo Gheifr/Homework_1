@@ -11,7 +11,7 @@ namespace C3L1
         static void Main(string[] args)
         {
 
-            MyList myList = new MyList();
+            MyList<int> myList = new MyList<int>();
 
 
         }
