@@ -32,7 +32,14 @@ namespace C3L2
 
         public T GetItem(int x, int y)
         {
-            return body[x,y];
+            try
+            {
+                return body[x, y];
+            }
+            catch (ArgumentException ex)
+            {
+                throw ex;
+            }
         }
 
         public void Insert(int x, int y, T item)
