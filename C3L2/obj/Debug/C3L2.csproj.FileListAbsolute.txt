@@ -1,0 +1,7 @@
+D:\Learning_stuff\C3L2\bin\Debug\C3L2.exe.config
+D:\Learning_stuff\C3L2\bin\Debug\C3L2.exe
+D:\Learning_stuff\C3L2\bin\Debug\C3L2.pdb
+D:\Learning_stuff\C3L2\obj\Debug\C3L2.csprojAssemblyReference.cache
+D:\Learning_stuff\C3L2\obj\Debug\C3L2.csproj.CoreCompileInputs.cache
+D:\Learning_stuff\C3L2\obj\Debug\C3L2.exe
+D:\Learning_stuff\C3L2\obj\Debug\C3L2.pdb
