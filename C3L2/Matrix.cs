@@ -36,14 +36,14 @@ namespace C3L2
 
         public void Insert(int x, int y, T item)
         {
-            //try
-            //{
+            try
+            {
                 body[x, y] = item;
-            //}
-            //catch(Exception e)
-            //{
+            }
+            catch (IndexOutOfRangeException e)
+            {
                 
-            //}
+            }
         }
 
 
