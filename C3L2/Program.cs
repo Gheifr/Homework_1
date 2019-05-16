@@ -12,12 +12,13 @@ namespace C3L2
         static void Main(string[] args)
         {
 
-            var testMatrix = new Matrix<int>(2, 2);
+            var testMatrix = new Matrix<String>(3, 2);
 
-            testMatrix.Insert(1,3, 5);
+            testMatrix.Insert(1,1, "Someshit");
+            Console.WriteLine(testMatrix.GetCount());
+            Console.ReadKey();
 
-
-            foreach(var item in testMatrix)
+            foreach (var item in testMatrix)
             {
                 Console.WriteLine(item);
             }

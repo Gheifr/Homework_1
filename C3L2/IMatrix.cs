@@ -14,6 +14,7 @@ namespace C3L2
         //T GetItem(string name);
         void Insert(int x, int y, T item);
 
+        int GetCount();
 
     }
 }

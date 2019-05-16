@@ -21,12 +21,13 @@ namespace C3L2
             body =  new T[xCount, yCount];
         }
 
-        public IEnumerator<T> GetEnumerator()
+        public int GetCount()
         {
-            foreach(T i in body)
-            {
-                yield return i;
-            }
+            if (xCount == 0)
+                return yCount;
+            if (yCount == 0)
+                return xCount;
+            return xCount*yCount;
         }
 
         public T GetItem(int x, int y)
@@ -42,11 +43,17 @@ namespace C3L2
             }
             catch (IndexOutOfRangeException e)
             {
-                
+                Console.WriteLine(e.Message);
+                Console.ReadKey();
             }
         }
-
-
+        public IEnumerator<T> GetEnumerator()
+        {
+            foreach (T i in body)
+            {
+                yield return i;
+            }
+        }
         IEnumerator IEnumerable.GetEnumerator()
         {
             return (IEnumerator)this;
