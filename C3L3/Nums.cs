@@ -17,7 +17,9 @@ namespace C3L3
             if (SetVars())
                 ProcessEnteredNums?.Invoke(a,b);
         }
-    private bool SetVars()
+
+
+        private bool SetVars()
         {
             try
             {
