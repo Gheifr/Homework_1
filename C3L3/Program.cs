@@ -10,8 +10,11 @@ namespace C3L3
     {
         static void Main(string[] args)
         {
+            var watcherItem = new WatchingClass();
+            var senderItem = new Nums();
 
-
+            senderItem.ProcessEnteredNums +=watcherItem.WatchEvent;
+            senderItem.DoSomething();
         }
     }
 }
