@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A2C28C5A-3C07-4A6F-B843-6A74808C8600}</ProjectGuid>
+    <ProjectGuid>{328B7FD6-64AA-4469-B677-A455FC8D47CF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C3L4</RootNamespace>
-    <AssemblyName>C3L4</AssemblyName>
+    <RootNamespace>C3L4_Training</RootNamespace>
+    <AssemblyName>C3L4-Training</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FIleExample.cs" />
+    <Compile Include="Persons.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnmanagedResourcesHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

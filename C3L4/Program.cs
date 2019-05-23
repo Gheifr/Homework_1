@@ -10,6 +10,8 @@ namespace C3L4
     {
         static void Main(string[] args)
         {
+            var example = new FIleExample();
+            example.WriteToFile("Hello world!");
         }
     }
 }
