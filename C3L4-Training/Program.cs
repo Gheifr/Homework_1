@@ -12,7 +12,7 @@ namespace C3L4_Training
     {
         static void Main(string[] args)
         {
-
+            #region Code for list of persons
             List<Persons> listOfPersons = new List<Persons>();
 
             Persons pers1 = new Persons("1", "Name 1", "Surname 1");
@@ -56,8 +56,8 @@ namespace C3L4_Training
                     lineCount++;
                 }
             }
-
-
+#endregion  
+            #region One person code
             //var someOne = new Persons("1", "Ivan", "Ivanov");
             //string filePath = @"D:\Learning_stuff\C3L4\testDB.txt";
 
@@ -77,6 +77,7 @@ namespace C3L4_Training
             //}
             //Console.WriteLine($"New clone is: {someOnesClone.ToString()}");
             //Console.ReadKey();
+            #endregion
         }
     }
 }
